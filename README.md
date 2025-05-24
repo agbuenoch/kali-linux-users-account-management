@@ -39,16 +39,14 @@ Each user is on a separate line with fields separated by colons `:` in this form
 `username : password : UID : GID : comment : home_directory : login_shell`
 
 The table below explains the components of the kali username information above as pointed to by the 2nd, 3rd and 4th arrows.<br>
-**View: [step2B3](screenshots/step2B3)**
-| Fields             | Descriptions                                                                    |
-|--------------------|---------------------------------------------------------------------------------|
-| kali  Username     |                                                                                 |
-| x                  | Password placeholder (actual password is in /etc/shadow)                        |
-| 1000               | UID (If user ID = 0, it’s a root user, if ID=1000+ it’s a normal/regular user)  |
-|                    | 1000  GID (Group ID)                                                            |
-| ,,,                | Description/Comment (optional)
-| /home/kali         | Home directory                                                                  |
-|                    | /bin/zsh  Default login shell                                                   |
+| Fields             | Descriptions                                                                                          |
+|--------------------|-------------------------------------------------------------------------------------------------------|
+| kali               | Username                                                                                              |
+| x                  | Password placeholder (actual password is in /etc/shadow)                                              |
+| 1000               | UID (If user ID = 0, it’s a root user, if ID=1000+ it’s a normal/regular user), 1000  GID (Group ID)  |
+| ,,,                | Description/Comment (optional)                                                                        |
+| /home/kali         | Home directory                                                                                        |
+|                    | /bin/zsh  Default login shell                                                                         |
 
 **NOTE:** Kali recently switched its default shell from `bash` to `zsh` to give users more power and flexibility.<br>
 **View: [step2B4a](screenshots/step2B4a)<br>**
@@ -292,7 +290,7 @@ Run `sudo usermod -s /bin/bash <username>` to unlock the `demouser` as pointed t
 We can now log in or switch to the `demouser` account.
 
 ## LinkedIn Article.
-- [File Sharing Using scp and rsync](https://www.linkedin.com/pulse/file-sharing-using-scp-rsync-enoch-agbu-yeynf/)
+- [Kali Linux Users Account Management](https://www.linkedin.com/pulse/kali-linux-users-account-management-enoch-agbu-hhzof)
 
 ## Connect with me.
 [🔗 LinkedIn](https://www.linkedin.com/in/agbuenoch)<br>
