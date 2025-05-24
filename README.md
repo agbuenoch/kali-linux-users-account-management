@@ -152,7 +152,7 @@ Switch to the `demouser` as pointed to by the 1st arrow. We run `pwd` to see the
 ## Step 4: Renaming a user.
 We can change the `adminuser` name to something else, but it involves more than just renaming the user. We also need to update the home directory and permissions properly to avoid login issues.
 
-**Let’s go step-by-step to safely rename the adminuser to myadmin.**
+**Let’s go step-by-step to safely rename the adminuser to myadmin.**<br>
 **⚠️ Important:** Don’t do this while logged in as the `adminuser` user. First, create another temporary admin user called `tmpadmin`, and log in as `tmpadmin` to perform the renaming.
 
 Create a new user, `tmpadmin`, following the same steps as done in **Step 2 above**. The `tmpadmin` user will be placed inside both the `tmpadmin` and `users` groups as pointed to by the 3rd and 7th arrows.<br>
