@@ -13,7 +13,7 @@ Run `passwd` to change the kali username password by providing the current passw
 
 The password for the kali username is now changed from `kali` to the new password we provided.
 
-**Check if the current user can elevate to root privileges.**
+**Check if the current user can elevate to root privileges.**<br>
 Run either the commands `id` or `groups`, or `groups kali`. You'll see something like this below as pointed to by the 1st arrow:<br>
 `uid=1000(kali) gid=1000(kali) groups=1000(kali),27(sudo)`
 
@@ -46,7 +46,7 @@ The table below explains the components of the kali username information above a
 | 1000               | UID (If user ID = 0, it’s a root user, if ID=1000+ it’s a normal/regular user), 1000  GID (Group ID)  |
 | ,,,                | Description/Comment (optional)                                                                        |
 | /home/kali         | Home directory                                                                                        |
-|                    | /bin/zsh  Default login shell                                                                         |
+| /bin/zsh           | Default login shell                                                                         |
 
 **NOTE:** Kali recently switched its default shell from `bash` to `zsh` to give users more power and flexibility.<br>
 **View: [step2B4a](screenshots/step2B4a)<br>**
